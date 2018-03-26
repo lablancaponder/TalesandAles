@@ -1,10 +1,10 @@
-/* #books img, #book img{
-    width: 100%;
+#books img, #book img{
+    align-content: center;
   }
-   */
+   
   @media(min-width:960px){
     #books .col-md-3 .well{
-      height: 370px;
+      height: 350px;
       
       
     }
@@ -13,4 +13,9 @@
       height: 240px;
       
     }
+
+    #drinks img, #drink img {
+      width: 300px;
+    }
+
   }
