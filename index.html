@@ -6,31 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tales and Ales</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Tales & Ales</a>
-        </div>
-      </div>
-    </nav>
+
 
     <div class="container">
-        <div class="jumbotron">
-          <h3 class="text-center">Search For Any Book</h3>
+        <div class="jumbotron opaque">
+          <h3 class="text-center text-uppercase">Tales & Ales</h3>
           <form id="searchForm">
-            <input type="text" class="form-control" id="searchText" placeholder="Book or Author Name">
+            <input type="text" class="form-control" id="searchText" placeholder="Search by Book or Author Name">
             <button type="button" id="submit" class="btn btn-lg btn-block btn-warning">Submit</button>
           </form>
         </div>
       </div>
   
-      <div class="container">
-        <div id="books" class="row"></div>
+      <div class="container opaque1">
+        <div id="books" class="row opaque1"></div>
       </div>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
